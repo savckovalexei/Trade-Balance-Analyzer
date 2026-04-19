@@ -42,7 +42,7 @@ composer install
 
 ### Запуск
 # С передачей файла через перенаправление
-php trade_analyzer.php < examples/example1.txt
+php trade_analizer.php < examples/example1.txt
 
 # Через cat (Linux/Mac)
 cat examples/example1.txt | php trade_analyzer.php
@@ -52,4 +52,5 @@ type examples\example1.txt | php trade_analyzer.php
 
 # С использованием composer-скриптов
 composer example1
+
 composer example2
