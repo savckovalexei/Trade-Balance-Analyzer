@@ -1,0 +1,23 @@
+{
+    "name": "gamedev/trade-balance-analyzer",
+    "description": "Инструмент для обнаружения дисбаланса в системе обмена предметами",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "GameDev Balance Team"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "GameDev\\TradeBalance\\": "src/"
+        }
+    },
+    "scripts": {
+        "example1": "php trade_analizer.php < examples/example1.txt",
+        "example2": "php trade_analizer.php < examples/example2.txt"
+    }
+}
